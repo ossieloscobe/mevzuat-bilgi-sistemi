@@ -19,15 +19,22 @@ html, body {
 }
 		
 .ol-popup {
-    display: none;
+   display: none;
     position: absolute;
     background-color: white;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
     padding: 15px;
-	border-radius: 10px;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;   
+    height: 100;
+    width: 200;
+    min-width: 100px;
+    max-height:400px;  
+    overflow-y: scroll; 
 }
 
 .ol-popup:after, .ol-popup:before {

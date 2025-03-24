@@ -31,8 +31,8 @@ html, body {
     bottom: 12px;
     left: -50px;   
     height: 100;
-    width: 400px;
-    min-width: 100px;
+    width: 400;
+    min-width: 200px;
     max-height:400px;  
     overflow-y: scroll; 
 }
